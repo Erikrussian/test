@@ -7,7 +7,7 @@
     margin: 0px 10px;
     z-index: 7;
     position: absolute;
-    align-items: ;
+
 }
 
 #logo {
@@ -101,45 +101,147 @@
 
 }
 
+.body {
+    display: flex;
+}
+
 .firstbar {
     padding: 1px 20px;
     background-color: rgb(232, 235, 236);
     border-radius: 20px;
     margin-top: 119px;
     margin-left: 30px;
-    width: 10%;
+    width: 150px;
     height: 5%;
     position: fixed;
     text-align: left;
+    position: relative;
 
 }
-.midbar{
+
+.midbar {
     height: 264px;
     width: 10%;
-    padding: 181px 45px;
+    padding: 44px 46px;
     font-size: 2ch;
     font-family: Helvetica, Arial, sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: absolute;
 }
 
-#m1{
+#m1 {
     text-decoration: none;
 }
-#office{
+
+#office {
     text-decoration: none;
     padding-top: 20px;
 }
-#pic{
+
+#pic {
     text-decoration: none;
 }
-#movie{
+
+#movie {
     text-decoration: none;
 }
-#dever{
+
+#dever {
     text-decoration: none;
 }
-#giaitri{
+
+#giaitri {
     text-decoration: none;
 }
+
+#game {
+    text-decoration: none;
+    padding: 189px 20px;
+    font-size: 2ch;
+    top: 325px;
+    position: absolute;
+}
+
+
+
+
+#control {
+    position: relative;
+    margin-top: -11px;
+
+}
+
+.Endbar {
+    background-color: aliceblue;
+    height: 9px;
+    width: 79px;
+    padding: 17px 31px;
+    margin-top: 328px;
+    size: 30px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px #c5c5c5;
+    text-align: start;
+    margin-left: 20px;
+}
+
+#sidebar {
+    width: 200px;
+    border-radius: 15px;
+    margin-left: -38px;
+    margin-top: 40px;
+    
+}
+
+.leftslide{
+    background-color: rgb(131, 109, 212);
+    margin-top: 127px;
+    height: 270px;
+    width: 830px;
+    margin-left: 93px;
+    border-radius: 30px;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.error  {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: xx-large;
+}
+
+.trick>title{
+    text-decoration-line: none;
+    list-style-type: none;
+    
+
+}
+
+.tittle{
+    padding: 20px 30px ;
+    justify-content: space-between;
+    size: 40px;
+    height: 40px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tittle li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: x-large;
+}
+
+.tittle li{
+    list-style-type: none;
+    padding-top: 35px;
+    
+}
+
+.introimg> .tittle{
+    padding-left: 30px;
+    display: flex   ;
+}
+
