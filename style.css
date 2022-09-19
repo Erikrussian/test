@@ -240,8 +240,8 @@
     
 }
 
-.introimg> .tittle{
-    padding-left: 30px;
-    display: flex   ;
+.introimg{
+    padding: 18px 429px;
+    position: absolute;
 }
 
